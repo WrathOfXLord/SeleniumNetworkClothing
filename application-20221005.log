@@ -1,0 +1,30 @@
+2022-10-05 18:05:07.247 [main] INFO  com.testinium.network.TestBase - Connected to browser.
+2022-10-05 18:05:07.267 [main] INFO  com.testinium.network.TestBase - Test 1: Mainpage.
+2022-10-05 18:05:07.303 [main] INFO  com.testinium.network.TestBase - Assertion Passed: URLs are the same.
+2022-10-05 18:05:10.406 [main] INFO  com.testinium.network.TestBase - Test2: Results page.
+2022-10-05 18:05:12.725 [main] INFO  com.testinium.network.TestBase - Clicking to show more.
+2022-10-05 18:05:15.871 [main] INFO  com.testinium.network.TestBase - Assertion Passed: URLs are different after clicking show more button.
+2022-10-05 18:05:17.880 [main] INFO  com.testinium.network.TestBase - Selecting the first discounted product.
+2022-10-05 18:05:20.187 [main] INFO  com.testinium.network.TestBase - Selecting the size.
+2022-10-05 18:05:22.519 [main] INFO  com.testinium.network.TestBase - Redirecting to cart page.
+2022-10-05 18:05:28.351 [main] INFO  com.testinium.network.TestBase - Test 3: Shopping cart page.
+2022-10-05 18:05:28.369 [main] INFO  com.testinium.network.TestBase - Assertion Passed: Product sizes are the same.
+2022-10-05 18:05:28.399 [main] INFO  com.testinium.network.TestBase - Assertion Passed: Product prices are the same.
+2022-10-05 18:05:28.400 [main] INFO  com.testinium.network.TestBase - Verifying that discounted price is lesser than the normal price.
+2022-10-05 18:05:28.439 [main] INFO  com.testinium.network.TestBase - difference: -5
+2022-10-05 18:05:28.439 [main] INFO  com.testinium.network.TestBase - Assertion Passed: Discounted price is lesser than the normal price.
+2022-10-05 18:05:28.502 [main] INFO  com.testinium.network.TestBase - Continue button clicked.
+2022-10-05 18:05:30.516 [main] INFO  com.testinium.network.TestBase - Redirecting to login page.
+2022-10-05 18:05:30.518 [main] INFO  com.testinium.network.TestBase - Test 4: Login page.
+2022-10-05 18:05:32.530 [main] INFO  com.testinium.network.TestBase - Extracting login info from csv file.
+2022-10-05 18:05:33.534 [main] INFO  com.testinium.network.TestBase - Filling email and password inputs.
+2022-10-05 18:05:35.793 [main] INFO  com.testinium.network.TestBase - Assertion Passed: Login button exists.
+2022-10-05 18:05:37.639 [main] INFO  com.testinium.network.TestBase - Logging in.
+2022-10-05 18:05:39.649 [main] INFO  com.testinium.network.TestBase - Test 5: Back to shopping cart page after login.
+2022-10-05 18:05:39.649 [main] INFO  com.testinium.network.TestBase - Redirecting to mainpage via network button.
+2022-10-05 18:05:43.713 [main] INFO  com.testinium.network.TestBase - Test6: Back to mainpage.
+2022-10-05 18:05:43.713 [main] INFO  com.testinium.network.TestBase - Opening the shopping cart.
+2022-10-05 18:05:45.814 [main] INFO  com.testinium.network.TestBase - Removing the product.
+2022-10-05 18:05:48.998 [main] INFO  com.testinium.network.TestBase - Verifying the shopping cart is empty.
+2022-10-05 18:05:50.032 [main] INFO  com.testinium.network.TestBase - Assertion Passed: The Shopping cart is empty.
+2022-10-05 18:05:54.049 [main] INFO  com.testinium.network.TestBase - Connection closed.
